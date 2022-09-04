@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+ }
+ :root
+ {
+ 	--bg-color: #fff;
+	--text-color: #020312;
+	--main-color: #eb4a4a;
+	--second-color: gray;
+	--other-color: #12141c;
+	--h1-font: 5.2rem;
+	--h2-font: 3.5rem;
+	--p-font: 1.1rem;
+ }
+ body
+ {
+	background: var(--bg-color);
+	color: var(--second-color);
+ }
+ .container
+ {
+ 	display: flex;
+ 	position: absolute;
+ 	justify-content: center;
+ 	align-content: center;
+ 	padding-left: 40rem;
+ 	padding-top: 1rem;
+ }
+ .box
+ {  
+   position: absolute;
+ 	display: flex;
+ 	justify-content: center;
+ 	width: 40rem;
+ 	height: 45rem;
+ 	border: 1px solid #fff;
+   box-shadow: 55px 55px 55px 55px #5557;
+	border-radius: 13px;
+	overflow: hidden;
+ }
+ .side
+ {  
+ 	width: 20rem;
+ 	height: 45rem;
+ 	margin-right: 25rem;
+   background: var(--other-color);
+ }
+ .side img
+ {
+ 	width: 150px;
+ 	height: 150px;
+ 	margin-left: 40px;
+ 	margin-top: 5px;
+ 	background: #fff;
+ 	overflow: hidden;
+ 	border-radius: 80%;
+ }
+.side h3
+{
+	font-family: 'Nunito-light.ttf';
+}
+span h2
+{
+	display: flex;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	padding-left: 5px;
+	margin-top: 10px;
+	font-family: Nunito-Regular.ttf;
+	background: yellow;
+	margin-left: 40px;
+}
+.social
+{
+	margin: 20px 0px;
+}
+.social a 
+{
+    display: flex;
+    justify-content: center;
+    color: var(--bg-color);
+    align-items: center;
+    margin: 0px 5px;
+    height: 40px;
+    width: 40px;
+}
+.information
+{  
+	position: absolute;
+	margin-left: 40px;
+	justify-content: center;
+   align-content: center;
+   padding-left: 90px;
+}
+.information h1
+{ 
+	position: relative;
+	font-size: 1.5rem;
+   letter-spacing: 0.7rem;
+   margin: 10px;
+   left: 20px;
+}
+.information .info h4
+{  display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+   height: 20px
+}
+.information span
+{
+	background: blue;
+}
